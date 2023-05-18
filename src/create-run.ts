@@ -1,5 +1,5 @@
-import axios, { AxiosResponse } from 'axios';
-
+//import axios, { AxiosResponse } from 'axios';
+const axios = require('axios');
 
 
 const baseUrl = 'https://terraform.io/api/v2'
