@@ -10,7 +10,7 @@ jobs:
       - run: |
           npm install
       - run: |
-          npm install axios
+          npm install axios@latest
       - run: |
           npm run all
 
