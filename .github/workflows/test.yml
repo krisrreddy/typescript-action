@@ -11,8 +11,8 @@ jobs:
           npm install
       - run: |
           npm install axios@latest
-      - run: |
-          npm run all
+#      - run: |
+#          npm run all
 
       - uses: actions/checkout@v3
       - uses: ./
